@@ -1,7 +1,7 @@
 <p align="center">
   
 # Machine Learning-Enabled Fast-Scan STEM for Precise Identification of Labile Single-Atom Sites
-### 🚀 Nano Letters Under Review &nbsp;&nbsp; ** Ruining Jiang‡, Haiyang Zhang‡, Ruirui Liu, Lu Yu, Chao Li*, Jiuhui Han*, Yi Ding **
+### 🚀 Nano Letters Under Review &nbsp;&nbsp; **Ruining Jiang‡, Haiyang Zhang‡, Ruirui Liu, Lu Yu, Chao Li†, Jiuhui Han†, Yi Ding**
 
 </p>
 
