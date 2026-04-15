@@ -81,43 +81,27 @@ The pipeline produces high-quality reconstructions and precise atomic localizati
 
 #### Classical Method (LoG-based Baseline)
 ```bash
-python atomdl_denoise.py --floder_path /path/to/input --save_path /path/to/output
+python LoG.py --floder_path /path/to/input --save_path /path/to/output
 ```
 
 ### Single-Atomic localization
 
+#### Deep Learning (SFIN)
+```bash
+python atomdl_SingleAtom.py --floder_path /path/to/input --save_path /path/to/output --checkpoint_dir /path/to/checkpoint --gpu 0
+```
 
+The pipeline produces high-quality reconstructions and enables precise identification of atomic structures under extremely low signal-to-noise conditions.
 
-| Input (Noisy) | Normal Atom | Single Atom (0.5%) | Single Atom (1.0%) |
-|---------------|----------|--------------|---------|
+| Input (Noisy) | Host Lattice Atom | Single-Atom (0.5%) | Single-Atom (1.0%) |
+|---------------|-------------------|------------------------------|------------------------------|
 | <div align="center"><img src="./images/input.png" height="150"/></div> | <div align="center"><img src="./images/normal.png" height="150"/></div> | <div align="center"><img src="./images/0.5highlight.png" height="150"/></div> | <div align="center"><img src="./images/1.0highlight.png" height="150"/></div> |
 
-
+#### Classical Method (LoG-based Baseline)
+```bash
+python LoG_SingleAtom.py --floder_path /path/to/input --save_path /path/to/output
+```
 
 
 ## Acknowledgement
 We gratefully thank the authors from [SFIN](https://github.com/HeasonLee/SFIN) for open-sourcing their code.
-
-
-
-
-# How to Use
-1. Down checkpoints [here](https://pan.baidu.com/s/1mOMZGUwRHxZpbYvrtYb30g?pwd=dgf5). Files with `_bf` are for BF mode and others are for HAADF mode.
-2. Unzip test dataset `haadf_data_test` and `bf_data_test.zip`.
-3. Run `ours_gpu_demo.py` to get enhancement/detection results.
-4. Run `metrics.py` to get PSNR/SSIM metrics.
-
-If you have any other needs, please contact us via email [lihesong2@bit.edu.cn](lihesong2@bit.edu.cn) or my WeChat: linsfriend.
-
-
-# Citation
-
-If you find the code helpful in your resarch or work, please cite the following paper(s).
-
-```
-@article{Li2025SFIN,
-    title = {Noise Calibration and Spatial-Frequency Interactive Network for STEM Image Enhancement},
-    author = {Li, Hesong and Wu, Ziqi and Shao, Ruiwen and Zhang, Tao and Fu, Ying},
-    booktitle = {Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
-    year = {2025},
-}
