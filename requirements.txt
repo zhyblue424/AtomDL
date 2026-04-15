@@ -1,0 +1,12 @@
+kornia==0.8.2
+matplotlib==3.10.8
+numpy==2.4.4
+Pillow==12.2.0
+ptflops==0.7.5
+pytorch_msssim==1.0.0
+scipy==1.17.1
+skimage==0.0
+tifffile==2024.5.10
+torch==2.9.1+cu130
+torchvision==0.24.1+cu130
+tqdm==4.66.4
