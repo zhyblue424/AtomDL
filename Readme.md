@@ -19,14 +19,12 @@ This unlocks quantitative, physics-level analysis of dynamic single-atom behavio
 
 ## 🌟 Key Findings
 
-### 1. Atomic Displacement Analysis
-We quantitatively demonstrate that Pt atoms substituting Mo lattice sites exhibit stochastic positional deviations, with a maximum displacement reaching **3.2% of the Mo–Mo bond length**. This challenges the common assumption of ideal lattice substitution in single-atom catalysts.
+### 1. Precise Localization of Labile Sites:
+We quantified a random positional displacement of approximately 3.2% relative to ideal lattice sites, providing an empirical "snapshot" of the intrinsic structural disorder that is often overlooked in static models.
 
-### 2. Electric Field Heterogeneity
-By leveraging **Differential Phase Contrast (DPC)** imaging, we directly visualize how subtle atomic displacements induce local variations in electric fields. This provides a rare experimental link between atomic geometry and field distribution.
+### 2. Direct Visualization of Electronic Heterogeneity:
+Through Differential Phase Contrast (DPC) imaging, we directly visualized the inhomogeneous electrostatic landscapes surrounding individual Pt atoms. Our analysis suggests that this observed electronic heterogeneity may stems from the intrinsic, non-ideal positional distribution of these single atoms.
 
-### 3. Structure–Property Relationship
-Our results establish that atomic-scale positional disorder is not merely noise but an intrinsic source of **electronic heterogeneity**, offering new insight into catalytic activity variations at the single-atom level.
 
 
 
