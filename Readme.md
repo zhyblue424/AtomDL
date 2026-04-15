@@ -9,14 +9,13 @@
 
 ## 📖 Overview
 <p align="center">
-<img src="./images/flowchart.png" width="70%">
+<img src="./images/flowchart.png" width="100%">
 </p>
 Fast-scan STEM enables capturing atomic dynamics but suffers from extreme noise, making single-atom identification unreliable.
 
 We present a machine-learning-enhanced framework for robust atomic structure recovery under ultra-low SNR. Our approach builds upon prior spatial–frequency modeling methods, particularly the Spatial-Frequency Interactive Network (SFIN), to enable accurate localization of Pt atoms on MoS₂ under noisy imaging conditions.
 
 This unlocks quantitative, physics-level analysis of dynamic single-atom behavior beyond conventional imaging limits.
-
 
 ## 🌟 Key Findings
 
