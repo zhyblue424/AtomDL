@@ -76,7 +76,7 @@ The pipeline produces high-quality reconstructions and precise atomic localizati
 
 | Input (Noisy) | Denoised | Localization | Intensities |
 |---------------|----------|--------------|---------|
-| <div align="center"><img src="./images/input.png" height="150"/></div> | <div align="center"><img src="./images/denoise.png" height="150"/></div> | <div align="center"><img src="./images/atoms_with_circles.png" height="150"/></div> | <div align="center"><img src="./images/atoms_intensities.png" height="150"/></div> |
+| <div align="center"><img src="./images/input.png" height="180"/></div> | <div align="center"><img src="./images/denoise.png" height="180"/></div> | <div align="center"><img src="./images/atoms_with_circles.png" height="180"/></div> | <div align="center"><img src="./images/atoms_intensities.png" height="180"/></div> |
 
 
 #### Classical Method (LoG-based Baseline)
@@ -95,7 +95,7 @@ The pipeline produces high-quality reconstructions and enables precise identific
 
 | Input (Noisy) | Host Lattice Atom | Single-Atom (0.5%) | Single-Atom (1.0%) |
 |---------------|-------------------|------------------------------|------------------------------|
-| <div align="center"><img src="./images/input.png" height="150"/></div> | <div align="center"><img src="./images/normal.png" height="150"/></div> | <div align="center"><img src="./images/0.5highlight.png" height="150"/></div> | <div align="center"><img src="./images/1.0highlight.png" height="150"/></div> |
+| <div align="center"><img src="./images/input.png" height="180"/></div> | <div align="center"><img src="./images/normal.png" height="180"/></div> | <div align="center"><img src="./images/0.5highlight.png" height="180"/></div> | <div align="center"><img src="./images/1.0highlight.png" height="180"/></div> |
 
 #### Classical Method (LoG-based Baseline)
 ```bash
