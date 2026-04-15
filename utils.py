@@ -136,7 +136,7 @@ def atom_localization(X, Y, filtered_blobs, image_np, filtered_dist_matrix, coor
         plt.savefig(path, bbox_inches='tight', pad_inches=0)
 
     import csv
-    path = os.path.join(save_path_single, f'{100-quantile}highlight.csv') if single_atom else path = os.path.join(save_path_single, 'normal.csv')
+    path = os.path.join(save_path_single, f'{100-quantile}highlight.csv') if single_atom else os.path.join(save_path_single, 'normal.csv')
     with open(path, mode='w', newline='') as file:
         writer = csv.writer(file)
         header = ['center_x', 'center_y']
