@@ -89,6 +89,10 @@ if __name__ == '__main__':
         
 
         """Identify the connected area"""
+        # Approximate each connected component as a circle and compute the average equivalent radius. This simplification ignores
+        # shape irregularities and may be inaccurate for elongated, fragmented, or highly non-convex regions. A potential improvement
+        # is to replace the mean with more robust statistics, such as the median or percentile-based estimates, to reduce sensitivity
+        # to outlier regions and extreme component sizes.
         labeled_array, num_features = ndimage.label(mask.squeeze().detach().cpu().numpy())
         centers = ndimage.center_of_mass(mask.squeeze().detach().cpu().numpy(), labeled_array, range(1, num_features + 1))
         areas = ndimage.sum(mask.squeeze().detach().cpu().numpy(), labeled_array, range(1, num_features+1)) 
